@@ -1,0 +1,161 @@
+.card {
+    background-color:#f0f0f0    ;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 1px .25px;
+    width: 75%;
+    margin: 2.5rem auto;
+}
+
+
+.img-container {
+    width: 24.5rem; 
+    height: 18rem; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin: 2rem;
+}
+
+.img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    text-align: start;
+    margin-top: 2rem;
+    gap: 0.75rem;
+}
+
+
+@media screen and (max-width:1439px) {
+  
+    .img-container {
+        width: 21rem;
+        height: 16rem;
+    }
+
+}
+
+@media screen and (max-width:1399px) {
+  
+    .img-container {
+        width: 26rem;
+    }
+
+}
+
+
+@media screen and (max-width:1199px) {
+  
+    .img-container {
+        width: 36rem;
+    }
+
+}
+
+
+@media screen and (max-width:1024px) {
+  
+    .img-container {
+        width: 30rem; 
+        height: 14.5rem; 
+    }
+
+}
+
+@media screen and (max-width:991px) {
+  
+    .img-container {
+        width: 61rem;
+        height: 15rem;
+        margin: 1rem;
+        margin-top: 4rem;
+        margin-left: 2rem;
+    }
+
+    .card-body {
+        padding: 2.25rem;
+        margin-top: 1rem;
+    }
+
+
+}
+
+
+@media screen and (max-width:767px) {
+
+    .card {
+        flex-direction: column;
+    }
+    
+    .img-container {
+        width: 16rem; 
+        height: 15rem; 
+        border-radius: 50%;
+        margin: 2.5rem;
+        margin-bottom: 0rem;
+        margin-left: 4rem;
+    }
+    
+    .card-body {
+        padding: 2rem;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    
+    .img-container {
+        width: 15rem; 
+        margin: 3rem;
+        margin-left: 5.25rem;
+    }
+
+    .card-body {
+        padding-top: 0rem;
+    }
+
+}
+
+
+@media screen and (max-width:425px) {
+    
+    .img-container {
+        width: 14rem; 
+        height: 14rem; 
+        margin: 2.5rem;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    
+    .card {
+        width: 90%;
+    }
+    
+    .img-container {
+        width: 12rem; 
+        height: 12rem; 
+        margin-bottom: 0rem;
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    
+    .img-container {
+        width: 11rem; 
+        height: 11rem; 
+        margin: 2.75rem;
+        margin-bottom: 0rem;
+    }
+
+}
